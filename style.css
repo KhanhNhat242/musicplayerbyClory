@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: sans-serif;
+    width: 100%;
+    display: flex;
+}
+
+body{
+    margin: auto;
+}
+
+.active{
+    background-color: aqua;
+}
+
+#top{
+    position: fixed !important;
+    top: 0;
+    background-color: #fff;
+}
+
+#header{
+    text-align: center;
+    margin: 10px 0 10px;
+    background-color: #fff;
+}
+
+.heading{
+    color: aqua;
+}
+
+.songName{
+    margin-top: 10px;
+}
+
+#music{
+    text-align: center;
+    margin: 10px 0 10px;
+    background-color: #fff;
+    width: 480px;
+}
+
+#progress{
+    width: 80%;
+    margin: 10px 0;
+    color: aqua;
+}
+
+.avt{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#control{
+    display: flex;
+    /* position: fixed; */
+}
+
+#control button{
+    margin: auto;
+    border-radius: 30%;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#control button:hover{
+    background-color: aqua;
+}
+
+.btnPlay, .btnPause{
+    background-color: aqua;
+    border-radius: 50% !important;
+    padding: 8px 15px !important;
+}
+
+.btnPause{
+    display: none;
+}
+
+
+.play{
+    color: #fff;
+    padding: 5px 12px;
+}
+
+#bottom{
+    margin-top: 488px;
+    width: 480px;
+}
+
+#playList{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#song{
+    border: 1px solid gray;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#song:hover{
+    background-color: aqua;
+}
+
+.artist{
+    color: gray;
+}
